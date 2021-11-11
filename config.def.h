@@ -71,4 +71,6 @@ static const struct arg args[] = {
 	{ swap_total , " / %s "       , NULL    },
 	{ uptime     , " UPTIME: %s " , NULL    },
 	{ datetime   , " %s "         , "%F %T" },
+	{ battery_perc      , " BAT: %s%% "    , "BAT0" },
+	{ battery_remaining , "(%s) "    , "BAT0" },
 };
